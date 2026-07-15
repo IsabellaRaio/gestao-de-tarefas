@@ -41,3 +41,13 @@ Siga o passo a passo abaixo para rodar o projeto na sua máquina:
 ```bash
 git clone [https://github.com/seu-usuario/gestao-de-tarefas.git](https://github.com/seu-usuario/gestao-de-tarefas.git)
 cd gestao-de-tarefas
+
+---
+
+## Gestão de Mudanças (Simulação de Escopo)
+
+Durante o ciclo de desenvolvimento, a startup de logística identificou a necessidade crítica de filtrar e destacar entregas e tarefas urgentes. 
+
+* **Nova Necessidade:** Identificar o nível de prioridade de cada tarefa.
+* **Impacto no Escopo:** Adição do campo opcional `prioridade` (com valores como "Alta", "Média", "Baixa") nos modelos de dados, rotas de criação/atualização e nos testes unitários.
+* **Ajuste no Kanban:** Um novo card de funcionalidade foi adicionado e movido para a coluna "Concluído" após a implementação do código e aprovação nos testes automatizados.
